@@ -1,47 +1,47 @@
 app-home {
  
   ion-footer {
-      padding: 10px;
-      font-size: 0.7em;
-      color: #474747;
-      background-color: #f6f6f6;
+    padding: 10px;
+    font-size: 0.7em;
+    color: #474747;
+    background-color: #f6f6f6;
   }
 
   ion-item-sliding {
 
-      margin-top: 10px;
+    margin-top: 10px;
 
-      .item {
+    .item {
 
-          background-color: #f6f6f6;
-          text-transform: uppercase;
-          padding: 10px;
+      background-color: #f6f6f6;
+      text-transform: uppercase;
+      padding: 10px;
 
-          .input-wrapper {
-              display: block;
-          }
-
-          .amount {
-              font-size: 0.7em;
-          }
-
+      .input-wrapper {
+        display: block;
       }
 
-      ion-item-options {
-
-          .delete-button {
-              height: 100%;
-              margin: 0;
-          }
-
+      .amount {
+        font-size: 0.7em;
       }
+
+    }
+
+    ion-item-options {
+
+      .delete-button {
+        height: 100%;
+        margin: 0;
+      }
+
+    }
 
   }
 
   .value {
-      margin-top: 10px;
-      font-size: 1.2em;
-      color: #32db64;
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #32db64;
   }
 
 }
